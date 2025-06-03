@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-gb">
+<html lang="en-gb" class="no-js">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,6 +39,10 @@
   </head>
 
   <body class="py-4 bg-brand-slate-grey text-white">
+    <script>
+      document.documentElement.classList.remove('no-js')
+      document.documentElement.classList.add('js')
+    </script>
     <main class="px-4 md:px-8 lg:px-12 w-full max-w-5xl mx-auto text-center">
       <h1 class="sr-only">Windscope</h1>
       <img

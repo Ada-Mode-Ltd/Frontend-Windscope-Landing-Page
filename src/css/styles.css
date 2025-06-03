@@ -41,6 +41,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.no-js {
+  body {
+    opacity: 1;
+  }
+}
+
+.js {
+  body {
+    opacity: 1;
+  }
 }
 
 h1 {
