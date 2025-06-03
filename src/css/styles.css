@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-body: 'Work Sans Regular';
+  --font-heading: 'Work Sans Bold';
+
+  --color-brand-slate-grey: rgb(42, 50, 69);
+  --color-brand-slate-grey-light: rgb(54, 65, 89);
+  --color-brand-grey: rgb(82, 96, 123);
+  --color-brand-snow-grey: rgb(248, 250, 249);
+  --color-brand-green: hsl(138, 73%, 46%);
+  --color-brand-green-dark: rgb(24, 171, 70);
+  --color-brand-blue: hsl(224, 95%, 58%);
+}
+
+@font-face {
+  font-family: 'Work Sans Regular';
+  src:
+    url('../fonts/WorkSans-Regular.woff2') format('woff2'),
+    url('../fonts/WorkSans-Regular.woff') format('woff'),
+    url('../fonts/WorkSans-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans Bold';
+  src:
+    url('../fonts/worksans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/worksans-bold-webfont.woff') format('woff'),
+    url('../fonts/worksans-bold-webfont.ttf') format('ttf');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: var(--font-body);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: var(--font-heading);
+}
