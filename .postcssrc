@@ -1,0 +1,8 @@
+{
+  "preset": [
+    "default"
+  ],
+  "plugins": {
+    "@tailwindcss/postcss": {}
+  }
+}
