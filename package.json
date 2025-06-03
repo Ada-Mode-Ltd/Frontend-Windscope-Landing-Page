@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel 'src/index.html' --port 3000 --open --no-cache",
-    "build": "parcel build 'src/index.html' --dist-dir dist --no-source-maps --no-cache"
+    "start": "parcel src/index.html --port 3000 --open --no-cache",
+    "build": "parcel build src/index.html --dist-dir dist --no-source-maps --no-cache"
   },
   "author": "",
   "license": "ISC",
